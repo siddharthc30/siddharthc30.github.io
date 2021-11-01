@@ -3,4 +3,8 @@ title = "Contact"
 slug = "contact"
 +++
 
-Follow me, @johndoe.
+You can reach me out through Mail or Telegram
+
+Gmail: siddharthcilamkoti@gmail.com
+
+Telegram: @siddharthc30
