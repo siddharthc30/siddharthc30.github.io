@@ -41,5 +41,19 @@ done by the model will be displayed on the screen.
 # Hackathons
 
 Apart from working on personal projects, I also participated in number of Hackathons ans also won a few of them.
+Here are some of the projects that won prizes in some popular Hackathons
+
+### Perfect-pause
+Computer Vision based attention monitoring system to aid your movie-watching experience.
+[Link to the project](https://github.com/lazyCodes7/perfect-pause)
+
+Here is a youtube [video](https://www.youtube.com/watch?v=FDIZSHDRuGk) demonstrating our project
+
+### Signlingo
+Signlingo aims to automate the process of teaching sign language and make it more engaging by gamifying it. The number of sign-language teachers out there is very low compared to the number of learners, moreover they usually charge money for sessions, our solution attemtpts to make the process of learning sign language accessible to everyone for free. Our solution takes input from the webcam, and a custom PyTorch based Convolutional Neural Network determines if the user is showing the correct sign. Here is a youtube [video](https://www.youtube.com/watch?time_continue=2&v=lPl0rA6eCpA&feature=emb_logo) demonstrating our project.
+
+[Link to the project](https://github.com/Mainakdeb/signlingo)
+
+
 
 
