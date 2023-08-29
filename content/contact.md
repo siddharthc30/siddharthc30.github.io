@@ -3,8 +3,10 @@ title = "Contact"
 slug = "contact"
 +++
 
-You can reach me out through Mail or Telegram
+You can reach me out through my mail or socials
 
 Gmail: siddharthcilamkoti@gmail.com
 
-Telegram: @siddharthc30
+Twitter: [@SiddharthC30](https://twitter.com/SiddharthC30)
+
+LinkedIn: [Profile](https://www.linkedin.com/in/sai-siddharth-cilamkoti/)
