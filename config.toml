@@ -2,6 +2,7 @@ baseURL = "https://siddharthc30.github.io/"
 #googleAnalytics ="404826954"
 title = "Siddharth Cilamkoti"
 theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
+enableInlineShortcodes = true
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
