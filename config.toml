@@ -1,5 +1,5 @@
 baseURL = "https://siddharthc30.github.io/"
-googleAnalytics ="G-XGGN8YPP8Y"
+#googleAnalytics ="404826954"
 title = "Siddharth Cilamkoti"
 theme = "hugo-coder"
 languageCode = "en"
@@ -72,8 +72,8 @@ customJS = []
 # serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
+[params.googleTagManager]
+id = "404826954"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
@@ -113,16 +113,17 @@ url = "https://github.com/siddharthc30"
 #url = "https://gitlab.com/johndoe/"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa fa-twitter"
-weight = 3
-url = "https://twitter.com/SiddharthC30"
-
-[[params.social]]
 name = "LinkedIn"
 icon = "fa fa-linkedin"
+weight = 3
+url = "www.linkedin.com/in/sai-siddharth-cilamkoti"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter"
 weight = 4
-url = "https://www.linkedin.com/in/siddharth-cilamkoti-a667691b0/"
+url = "https://twitter.com/SiddharthC30"
+
 
 #[[params.social]]
 #name = "Medium"
@@ -148,17 +149,17 @@ url = "about/"
 
 [[languages.en.menu.main]]
 name = "Blog"
-weight = 2
+weight = 3
 url = "posts/"
 
 [[languages.en.menu.main]]
 name = "Projects"
-weight = 3
+weight = 2
 url = "projects/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
-weight = 5
+weight = 4
 url = "contact/"
 
 
