@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About Sai Siddharth Cilamkoti"
-date = "2021-10-26"
+date = "2023-8-30"
 aliases = ["about-me","Description"]
 author = "Siddharth"
 +++
