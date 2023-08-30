@@ -1,4 +1,5 @@
 baseURL = "https://siddharthc30.github.io/"
+googleAnalytics ="G-XGGN8YPP8Y"
 title = "Siddharth Cilamkoti"
 theme = "hugo-coder"
 languageCode = "en"
@@ -15,8 +16,8 @@ enableEmoji = true
 author = "Sai Siddharth Cilmakoti"
 description = "Siddharth's personal website"
 keywords = "Open source, Deep Learning, Hackathons"
-info = [" Deep Learning", "Hackathons", "Opensource"]
-avatarURL = "images/profile1.jpg"
+info = ["Back-end Development", "Machine Learning", "Deep Learning"]
+avatarURL = "images/profile1.jpeg"
 #gravatar = "john.doe@example.com"
 #footerContent = "Enter a text here."
 dateFormat = "January 2, 2006"
@@ -159,5 +160,6 @@ url = "projects/"
 name = "Contact me"
 weight = 5
 url = "contact/"
+
 
 

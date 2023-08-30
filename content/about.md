@@ -19,5 +19,5 @@ I was fortunate to be introduced to Hackathons through my mentors at amFOSS club
 On this website, you'll find a showcase of my projects, and blogs that I plan to write about my experiences in technologies and life in general.
 
 Thank you for visiting my website, and I look forward to [connecting](/contact) with you 
-
+ 
 
