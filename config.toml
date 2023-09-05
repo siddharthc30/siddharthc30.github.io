@@ -1,8 +1,8 @@
 baseURL = "https://siddharthc30.github.io/"
 #googleAnalytics ="404826954"
 title = "Siddharth Cilamkoti"
-theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
-enableInlineShortcodes = true
+theme = ["hugo-coder"]
+#enableInlineShortcodes = true
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
@@ -150,7 +150,7 @@ url = "about/"
 
 [[languages.en.menu.main]]
 name = "Blog"
-weight = 3
+weight = 4
 url = "posts/"
 
 [[languages.en.menu.main]]
@@ -160,12 +160,12 @@ url = "projects/"
 
 [[languages.en.menu.main]]
 name = "Resume"
-weight = 4
+weight = 3
 url = "resume/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
-weight = 4
+weight = 5
 url = "contact/"
 
 
