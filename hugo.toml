@@ -1,0 +1,143 @@
+baseURL = "https://siddharthc30.github.io/"
+title = "Siddharth Cilamkoti"
+theme = ["hugo-coder"]
+
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+enableEmoji = true
+
+# ─────────────────────────────────────────────────────────────
+# Syntax Highlighting
+# pygmentsStyle / pygmentsCodeFences are DEPRECATED in Hugo 0.120+.
+# Use the [markup.highlight] block below instead.
+# ─────────────────────────────────────────────────────────────
+[markup.highlight]
+  style = "bw"
+  codeFences = true
+  guessSyntax = true
+  noClasses = true          # keep inline styles (required for "bw" style to render)
+
+# ─────────────────────────────────────────────────────────────
+# Site Parameters
+# ─────────────────────────────────────────────────────────────
+[params]
+  author      = "Sai Siddharth Cilamkoti"
+  description = "Siddharth's personal website"
+  keywords    = "Open source, Deep Learning, Hackathons"
+  info        = ["Back-end Development", "Machine Learning", "Deep Learning"]
+  avatarURL   = "images/profile1.jpeg"
+  dateFormat  = "January 2, 2006"
+  since       = 2019
+
+  hideFooter           = false
+  hideCredits          = false
+  hideCopyright        = false
+  hideColorSchemeToggle = false
+
+  # "auto" | "dark" | "light"
+  colorScheme = "dark"
+
+  rtl              = false
+  enableTwemoji    = false
+  maxSeeAlsoItems  = 5
+
+  # Custom assets
+  customCSS  = []
+  customSCSS = []
+  customJS   = []
+
+  # ── Twitter / X card fix ────────────────────────────────────
+  # Hugo 0.120+ internal twitter_cards template requires a flat
+  # string at params.social.twitter, but hugo-coder uses
+  # [[params.social]] as an array — they collide.
+  # This dedicated key is used by the custom partial override
+  # (see layouts/partials/twitter_cards.html below).
+  twitterCardSite = "SiddharthC30"
+
+# ─────────────────────────────────────────────────────────────
+# Google Tag Manager  (replaces the old top-level googleAnalytics key)
+# ─────────────────────────────────────────────────────────────
+[params.googleTagManager]
+  id = "404826954"
+
+# ─────────────────────────────────────────────────────────────
+# Content Security Policy
+# ─────────────────────────────────────────────────────────────
+[params.csp]
+  childsrc   = ["'self'"]
+  fontsrc    = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+  formaction = ["'self'"]
+  framesrc   = ["'self'"]
+  imgsrc     = ["'self'"]
+  objectsrc  = ["'none'"]
+  stylesrc   = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://fonts.googleapis.com/",
+    "https://cdn.jsdelivr.net/"
+  ]
+  scriptsrc  = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+  prefetchsrc = ["'self'"]
+  connectsrc = ["'self'", "https://www.google-analytics.com"]
+
+# ─────────────────────────────────────────────────────────────
+# Taxonomies
+# ─────────────────────────────────────────────────────────────
+[taxonomies]
+  category = "categories"
+  series   = "series"
+  tag      = "tags"
+  author   = "authors"
+
+# ─────────────────────────────────────────────────────────────
+# Social Links  (hugo-coder [[params.social]] array — unchanged)
+# ─────────────────────────────────────────────────────────────
+[[params.social]]
+  name   = "Github"
+  icon   = "fa fa-github fa-2x"
+  weight = 1
+  url    = "https://github.com/siddharthc30"
+
+[[params.social]]
+  name   = "LinkedIn"
+  icon   = "fa fa-linkedin fa-2x"
+  weight = 3
+  url    = "https://www.linkedin.com/in/sai-siddharth-cilamkoti"
+
+[[params.social]]
+  name   = "Twitter"
+  icon   = "fa fa-twitter fa-2x"
+  weight = 4
+  url    = "https://twitter.com/SiddharthC30"
+
+# ─────────────────────────────────────────────────────────────
+# Languages & Navigation
+# ─────────────────────────────────────────────────────────────
+[languages.en]
+  languageName = ":uk:"
+
+[[languages.en.menu.main]]
+  name   = "About"
+  weight = 1
+  url    = "about/"
+
+[[languages.en.menu.main]]
+  name   = "Projects"
+  weight = 2
+  url    = "projects/"
+
+[[languages.en.menu.main]]
+  name   = "Resume"
+  weight = 3
+  url    = "resume/"
+
+[[languages.en.menu.main]]
+  name   = "Blog"
+  weight = 4
+  url    = "posts/"
+
+[[languages.en.menu.main]]
+  name   = "Contact me"
+  weight = 5
+  url    = "contact/"

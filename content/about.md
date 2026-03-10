@@ -6,7 +6,7 @@ aliases = ["about-me","Description"]
 author = "Siddharth"
 +++
 
-Welcome to my personal website! I'm Sai Siddharth Cilamkoti, a passionate and dedicated Computer Science enthusiast with a profound interest in Software Development and Artificial Intelligence(Machine Learning and Deep Learning). Currently, I am persuing a Master's degree in Computer Science from [the University at Buffalo, SUNY](https://www.buffalo.edu/), extending my persuits in education after a Bachelor's of Technology in Computer Science Engineering with a focus on Artificial Intelligence from [Amrita Vishwa Vidyapeetham](https://www.amrita.edu/).
+ I'm Sai Siddharth Cilamkoti, a passionate and dedicated Computer Science enthusiast with a profound interest in Software Development and Artificial Intelligence(Machine Learning and Deep Learning). Currently, I am persuing a Master's degree in Computer Science from [the University at Buffalo, SUNY](https://www.buffalo.edu/), extending my persuits in education after a Bachelor's of Technology in Computer Science Engineering with a focus on Artificial Intelligence from [Amrita Vishwa Vidyapeetham](https://www.amrita.edu/).
 
 My journey in the world of technology has been shaped by diverse experiences and a relentless enthusiasm to learn. From my early days as a student, I've been driven by a fascination for the convergence of computer science and artificial intelligence. 
 
